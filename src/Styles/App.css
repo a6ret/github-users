@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* https://colorhunt.co/palette/222831393e46fd7014eeeee */
+#btnSearch:hover {
+    cursor: pointer;
+}
+
+.githubIcon {
+    color: white;
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+h3 {
+    color: #eeeeee;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: none;
+    border-top: 5px dotted #eeeeee;
+    color: #fff;
+    /* background-color: #fd7014; */
+    height: auto;
+    margin-bottom: 50px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userText {
+    color: #fd7014;
+}
+
+input {
+    border: 2px solid #eeeeee;
+    border-radius: 5px;
+    margin: 10px;
+    width: 250px;
+}
+
+#btnSearch {
+    width: 70px;
+    background-color: #fd7014;
+    border-color: #eeeeee;
+    color: white;
+    transition: 0.2s;
+}
+
+#btnSearch:hover {
+    transform: scale(1.1);
+    background-color: #db6211;
+    border: 2px solid #eeeeee;
+}
+
+#inputUser {
+    transition: 0.2s;
+    padding-left: 5px;
+}
